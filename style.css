@@ -1,0 +1,36 @@
+:root {
+  --paper: #f6f1e7;
+  --ink: #2b2420;
+  --muted: #6b5f55;
+  --accent: #b5532f;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font: 18px/1.6 Georgia, "Times New Roman", serif;
+}
+
+main {
+  max-width: 40rem;
+  margin: 0 auto;
+  padding: 4rem 1.5rem 3rem;
+}
+
+h1 { font-size: 2.2rem; line-height: 1.2; margin: 0 0 0.5rem; }
+h2 { font-size: 1.25rem; margin: 2rem 0 0.5rem; }
+p, li { color: var(--ink); }
+.lede { color: var(--muted); font-size: 1.1rem; }
+a { color: var(--accent); }
+
+nav {
+  margin-top: 3rem;
+  padding-top: 1rem;
+  border-top: 1px solid #d9cfbf;
+  font-size: 0.95rem;
+}
+
+nav a { margin-right: 1.25rem; }
